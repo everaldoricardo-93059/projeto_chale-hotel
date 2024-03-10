@@ -1,0 +1,60 @@
+@charset "UTF=8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../imagens/bg.png);
+    margin: 15px;
+}
+
+main#container {
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+
+}
+
+div#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.6em;
+    min-width: 250px;/*Independente do tamanho dos textos,
+    o tamanho de 250px será respeitado*/
+}
+
+div#area-logo {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    top: 0;
+    left: 0;
+    z-index: 1;/*Sobrepondo imagens*/
+}
+
+h1.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+
+div#area-menu {
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
