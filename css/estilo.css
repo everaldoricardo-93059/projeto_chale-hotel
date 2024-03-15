@@ -107,15 +107,87 @@ a.reserva {
 
 .menu-lateral #opcoes li {
     list-style-type: none;
-    line-height: 30px;
+    line-height: 15px;
+    padding: 7px;
 }
 
 .menu-lateral a {
     color: #8b8448;
-    font-size: 0.8em;
-    font-weight: 600;
+    font-size: 0.7em;
+    font-weight: 800;
+    padding: 3px;
+}
+
+.menu-lateral a:hover {
+    background-color: #fffffb;
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }
 
 #depoimento {
     margin-top: 10px;
+}
+
+.segunda-secao {
+    min-width: 740px;
+    max-width: 1180px;
+    margin: 10px auto;
+    display: flex;
+}
+
+#texto {
+    background-color: #ede9cc;
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+
+#texto h4 {
+    color: #8b8448;
+}
+
+#layout-hotel h4 {
+    margin: 0 15px -10px 15px;
+    color: #8b8448
+}
+
+#texto p {
+    margin-top: 10px;
+    font-size: .8em;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#layout-hotel {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5b0;
+    width: 50%;
+}
+
+#layout-hotel img {
+    width: 180px;
+}
+
+#layout-hotel p {
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: justify;
+    padding: 15px;
+}
+
+div#apartamento {
+    display: flex;
+    margin: 20px 0px 0px 15px;
+}
+
+div#restaurante {
+    display: flex;
+    margin: 20px 0px 0px 15px;
+}
+
+div#piscina {
+    display: flex;
+    margin: 20px 0px 0px 15px;
 }
