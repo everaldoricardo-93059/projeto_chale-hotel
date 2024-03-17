@@ -182,12 +182,31 @@ div#apartamento {
     margin: 20px 0px 0px 15px;
 }
 
+#layout-hotel h4 {
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+#layout-hotel div:hover {
+    background-color: #f3f6d6;
+    cursor: pointer;
+}
+
 div#restaurante {
     display: flex;
     margin: 20px 0px 0px 15px;
 }
 
+
 div#piscina {
     display: flex;
     margin: 20px 0px 0px 15px;
+}
+
+footer {
+    padding: 16px;
+    background: #d4cc99;
+    color: #7d7640;
+    width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
 }
