@@ -1,0 +1,212 @@
+@charset "UTF=8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+
+main#container {
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+
+}
+
+div#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.6em; /*A altura se adaptará com o aumento
+    ou diminuição dos textos*/
+    min-width: 250px;/*Independente do tamanho dos textos,
+    o tamanho de 250px será respeitado*/
+}
+
+div#area-logo {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    top: 0;
+    left: 0;
+    z-index: 1;/*Sobrepondo imagens*/
+}
+
+h1.logo a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000px;
+}
+
+div#area-menu {
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#conteudo-menu {
+    margin-left: 90px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#menu-locais {
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+#menu-locais .locais {
+    float: left;
+    line-height: 2.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.reserva {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+
+.menu-lateral {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    column-gap: 20px;
+
+}
+
+#opcoes {
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.menu-lateral #opcoes li {
+    list-style-type: none;
+    line-height: 15px;
+    padding: 7px;
+}
+
+.menu-lateral a {
+    color: #8b8448;
+    font-size: 0.7em;
+    font-weight: 800;
+    padding: 3px;
+}
+
+.menu-lateral a:hover {
+    background-color: #fffffb;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+#depoimento {
+    margin-top: 10px;
+}
+
+.segunda-secao {
+    min-width: 740px;
+    max-width: 1180px;
+    margin: 10px auto;
+    display: flex;
+}
+
+#texto {
+    background-color: #ede9cc;
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+
+#texto h4 {
+    color: #8b8448;
+}
+
+#layout-hotel h4 {
+    margin: 0 15px -10px 15px;
+    color: #8b8448
+}
+
+#texto p {
+    margin-top: 10px;
+    font-size: .8em;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#layout-hotel {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff5b0;
+    width: 50%;
+}
+
+#layout-hotel img {
+    width: 180px;
+}
+
+#layout-hotel p {
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: justify;
+    padding: 15px;
+}
+
+div#apartamento {
+    display: flex;
+    margin: 20px 0px 0px 15px;
+}
+
+#layout-hotel h4 {
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+#layout-hotel div:hover {
+    background-color: #f3f6d6;
+    cursor: pointer;
+}
+
+div#restaurante {
+    display: flex;
+    margin: 20px 0px 0px 15px;
+}
+
+
+div#piscina {
+    display: flex;
+    margin: 20px 0px 0px 15px;
+}
+
+footer {
+    padding: 16px;
+    background: #d4cc99;
+    color: #7d7640;
+    width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
